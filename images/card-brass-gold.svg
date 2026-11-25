@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 440" width="700" height="440" fill="none">
+  <defs>
+    <!-- 24K Brushed Brass Gold Gradient -->
+    <linearGradient id="goldBase" x1="0%" y1="0%" x2="100%" y2="80%">
+      <stop offset="0%" stop-color="#deb841"/>
+      <stop offset="25%" stop-color="#fae7a5"/>
+      <stop offset="50%" stop-color="#cca22e"/>
+      <stop offset="75%" stop-color="#fdf1c2"/>
+      <stop offset="100%" stop-color="#b68921"/>
+    </linearGradient>
+    <linearGradient id="goldHighlight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff8db" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#b2841b" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#ffe699" stop-opacity="0.8"/>
+    </linearGradient>
+    <pattern id="brushedGoldTexture" width="500" height="2" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="1" x2="500" y2="1" stroke="#8d6812" stroke-opacity="0.16" stroke-width="0.8"/>
+    </pattern>
+    <filter id="shadowGold" x="-5%" y="-5%" width="115%" height="118%">
+      <feDropShadow dx="0" dy="16" stdDeviation="24" flood-color="#73500d" flood-opacity="0.3"/>
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#4d3506" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#shadowGold)">
+    <rect x="40" y="30" width="620" height="380" rx="22" fill="url(#goldBase)"/>
+    <rect x="40" y="30" width="620" height="380" rx="22" fill="url(#brushedGoldTexture)"/>
+    <!-- Polished Brass Edge -->
+    <rect x="40" y="30" width="620" height="380" rx="22" fill="none" stroke="url(#goldHighlight)" stroke-width="2.5"/>
+    <rect x="58" y="48" width="584" height="344" rx="16" fill="none" stroke="#8c6716" stroke-opacity="0.4" stroke-width="1.2"/>
+  </g>
+
+  <!-- Deep Mirror Obsidian Laser Infill -->
+  <g transform="translate(80, 140)">
+    <rect x="0" y="0" width="76" height="56" rx="9" fill="#ecd07a" stroke="#8c6716" stroke-width="1.5"/>
+    <path d="M 0 28 L 76 28 M 26 0 L 26 56 M 50 0 L 50 56 M 26 18 L 50 18 M 26 38 L 50 38" stroke="#5a3f06" stroke-width="1.4" fill="none"/>
+    <circle cx="38" cy="28" r="7" fill="none" stroke="#5a3f06" stroke-width="1.4"/>
+  </g>
+
+  <g transform="translate(176, 150)" stroke="#221b0a" stroke-width="2.2" fill="none" stroke-linecap="round">
+    <path d="M 0 10 A 10 10 0 0 1 0 26" opacity="0.4"/>
+    <path d="M 8 5 A 18 18 0 0 1 8 31" opacity="0.7"/>
+    <path d="M 16 0 A 26 26 0 0 1 16 36"/>
+  </g>
+
+  <g transform="translate(560, 68)">
+    <circle cx="0" cy="0" r="16" fill="none" stroke="#1d1706" stroke-width="1.5"/>
+    <path d="M -8 -4 L 0 6 L 8 -4 M 0 -11 L 0 11" stroke="#1d1706" stroke-width="1.3" stroke-linecap="round"/>
+    <text x="-4" y="32" text-anchor="end" font-family="'Roboto Condensed', sans-serif" font-size="13" font-weight="700" letter-spacing="3" fill="#1d1706">FINE TOUCH</text>
+    <text x="-4" y="45" text-anchor="end" font-family="'Open Sans', sans-serif" font-size="8" font-weight="600" letter-spacing="2" fill="#5c440a">BRASS GOLD VIP</text>
+  </g>
+
+  <g transform="translate(80, 290)">
+    <text font-family="'Roboto Condensed', monospace" font-size="21" font-weight="700" letter-spacing="4" fill="#140f02">MAXIMILIAN DU PONT</text>
+    <text y="24" font-family="'Open Sans', sans-serif" font-size="12" font-weight="600" letter-spacing="2.5" fill="#382a08">EXECUTIVE BOARD CHAIRMAN</text>
+    <text y="54" font-family="'Open Sans', sans-serif" font-size="11" font-weight="400" letter-spacing="2" fill="#695116">PREMIER PRIVÉ MEMBERSHIP CLUB</text>
+  </g>
+
+  <g transform="translate(590, 360)" text-anchor="end">
+    <text font-family="'Roboto Condensed', monospace" font-size="11" font-weight="600" letter-spacing="2" fill="#523e0c">0.8mm BRASS GOLD • VIP LIMITED EDITION</text>
+  </g>
+</svg>

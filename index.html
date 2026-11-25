@@ -1,0 +1,1208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fine Touch Metal Card | Bespoke Luxury Metal Business & VIP Cards</title>
+  <meta name="description"
+    content="Custom-crafted stainless steel, brass, copper, and matte black metal business and membership cards. Transparent pricing, fast turnaround, and worldwide express shipping.">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/jpeg" href="images/fine-touch-logo.jpg">
+
+  <!-- Google Fonts: Roboto Condensed (Headings) & Open Sans (Body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,700&display=swap"
+    rel="stylesheet">
+
+  <!-- Main Luxury Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="header-topbar">
+    <div class="container topbar-content">
+      <div class="topbar-badge">
+        <span>Bespoke Metal Craftsmanship • Worldwide Express DHL / FedEx</span>
+      </div>
+      <div class="topbar-links">
+        <a href="#contact" id="topbar-phone-link">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path
+              d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+            </path>
+          </svg>
+          <span id="topbar-phone-val">+91 98198 84421</span>
+        </a>
+        <a href="#contact" id="topbar-email-link">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+            <polyline points="22,6 12,13 2,6"></polyline>
+          </svg>
+          <span id="topbar-email-val">fineetching@gmail.com</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- =======================================================================
+       1. HEADER & NAVIGATION
+       Centered Logo: "FINE TOUCH METAL CARD" with subtle luxury emblem
+       Nav Links: Home | Our Cards | Why Metal | Contact Us
+       Action Buttons: VIP Sign Up + prominent "Order on WhatsApp" button
+       ======================================================================= -->
+  <header class="site-header" id="site-header">
+    <div class="container header-main-nav">
+
+      <!-- Mobile Toggle Hamburger (Left on mobile) -->
+      <button class="mobile-nav-toggle" id="mobile-nav-toggle" aria-label="Open Navigation Menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+
+      <!-- Left Navigation Links (Desktop) -->
+      <nav class="header-nav-left" aria-label="Primary Navigation">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#cards" class="nav-link">Our Cards</a>
+        <a href="#why-metal" class="nav-link">Why Metal</a>
+        <a href="#contact" class="nav-link">Contact Us</a>
+      </nav>
+
+      <!-- Centered Logo: "FINE TOUCH METAL CARD" with official luxury emblem -->
+      <div class="header-logo-centered">
+        <a href="#home" class="header-logo-link" title="Fine Touch Metal Card Homepage">
+          <img src="images/fine-touch-logo.jpg" alt="Fine Touch Metal Card Logo" class="header-logo-img">
+          <div class="header-logo-text-group">
+            <span class="header-logo-text-main">FINE TOUCH</span>
+            <span class="header-logo-text-sub">METAL CARD</span>
+          </div>
+        </a>
+      </div>
+
+      <!-- Right Navigation & Action Buttons (Sign Up + Order on WhatsApp) -->
+      <div class="header-action-right">
+
+        <!-- User State / Sign Up Slot -->
+        <div id="header-auth-container">
+          <button class="btn-auth-trigger" id="header-auth-btn" aria-label="VIP Sign Up or Sign In">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+              <circle cx="12" cy="7" r="4"></circle>
+            </svg>
+            <span>VIP Sign Up</span>
+          </button>
+        </div>
+
+        <!-- Prominent "Order on WhatsApp" button in the top right -->
+        <a href="#" class="btn btn-whatsapp header-whatsapp-btn" id="header-whatsapp-btn" target="_blank"
+          rel="noopener noreferrer">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm.01 1.67c2.2 0 4.26.86 5.82 2.41a8.17 8.17 0 0 1 2.4 5.83c0 4.54-3.7 8.24-8.24 8.24-1.42 0-2.82-.37-4.06-1.08l-.29-.17-3.12.82.83-3.04-.19-.3a8.197 8.197 0 0 1-1.25-4.46c0-4.54 3.7-8.24 8.24-8.24zm4.52 11.66c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.07-.39-2.03-1.25-.75-.67-1.26-1.5-1.41-1.75-.15-.25-.02-.39.11-.51.11-.11.25-.29.37-.44.12-.14.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.35-.77-1.85-.2-.49-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1 0 1.24.9 2.44 1.03 2.61.13.17 1.77 2.7 4.29 3.79.6.26 1.07.41 1.43.53.6.19 1.15.16 1.58.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.06-.11-.22-.18-.47-.3z" />
+          </svg>
+          <span>Order on WhatsApp</span>
+        </a>
+
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-nav-backdrop" id="mobile-nav-backdrop"></div>
+  <aside class="mobile-nav-drawer" id="mobile-nav-drawer" aria-label="Mobile Navigation">
+    <button class="mobile-nav-close" id="mobile-nav-close" aria-label="Close Navigation Menu">&times;</button>
+    <div class="mobile-drawer-brand" style="margin-bottom: 24px; text-align: center;">
+      <img src="images/fine-touch-logo.jpg" alt="Fine Touch Metal Card"
+        style="height: 60px; width: auto; border-radius: 8px; border: 1px solid rgba(212,175,55,0.4); box-shadow: 0 4px 14px rgba(0,0,0,0.4);">
+    </div>
+    <div class="mobile-nav-links">
+      <a href="#home" class="nav-link mobile-link">Home</a>
+      <a href="#cards" class="nav-link mobile-link">Our Cards</a>
+      <a href="#why-metal" class="nav-link mobile-link">Why Metal</a>
+      <a href="#contact" class="nav-link mobile-link">Contact Us</a>
+    </div>
+
+    <div style="display: flex; flex-direction: column; gap: 12px; margin-top: auto;">
+      <button class="btn btn-outline-gold" id="mobile-auth-btn" style="width: 100%;">
+        <span>VIP Sign Up / Sign In</span>
+      </button>
+      <a href="#" class="btn btn-whatsapp" id="mobile-drawer-whatsapp-btn" target="_blank" rel="noopener noreferrer">
+        <span>Order on WhatsApp</span>
+      </a>
+    </div>
+  </aside>
+
+  <!-- =======================================================================
+       2. LOCKED SPLIT-LAYOUT HERO SECTION (NO SLIDESHOW)
+       One side locked content, other side professional camera card showcase
+       ======================================================================= -->
+  <section class="hero-split-section" id="home">
+    <div class="container hero-split-grid">
+
+      <!-- Left Column: Locked Content -->
+      <div class="hero-locked-content">
+        <div class="hero-nfc-badge">
+          <span class="hero-nfc-badge-icon"></span>
+          <span class="hero-nfc-badge-text">Next-Generation Bespoke NFC Metal Cards</span>
+        </div>
+
+        <h1 class="hero-split-headline">
+          Make an <span class="highlight-gold">Unforgettable</span> First Impression
+        </h1>
+
+        <p class="hero-split-subheadline">
+          Custom-crafted stainless steel, brass, copper, and matte black metal business & membership cards with instant
+          tap-to-share contactless NFC technology.
+        </p>
+
+        <!-- Key NFC & Craftsmanship Highlights -->
+        <div class="hero-nfc-features-list">
+          <div class="hero-nfc-feature-item">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12.55a11 11 0 0 1 14.08 0"></path>
+              <path d="M1.42 9a16 16 0 0 1 21.16 0"></path>
+              <path d="M8.53 16.11a6 6 0 0 1 6.95 0"></path>
+              <line x1="12" y1="20" x2="12.01" y2="20"></line>
+            </svg>
+            <span><strong>Instant NFC Tap-to-Share:</strong> Share website, vCard, social profile, or catalog with a
+              single tap on modern iPhones &amp; Androids.</span>
+          </div>
+          <div class="hero-nfc-feature-item">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polygon
+                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+              </polygon>
+            </svg>
+            <span><strong>Marine-Grade 304 Solid Steel:</strong> Substantial 0.8mm credit card thickness, non-glare
+              coating, laser-deburred smooth edges.</span>
+          </div>
+          <div class="hero-nfc-feature-item">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"></circle>
+              <polyline points="12 6 12 12 16 14"></polyline>
+            </svg>
+            <span><strong>Complimentary Digital Proof:</strong> Direct consultation with our master craftsman before
+              production starts.</span>
+          </div>
+        </div>
+
+        <div class="hero-split-cta-row">
+          <a href="#" class="btn btn-primary-orange hero-whatsapp-cta" id="hero-primary-whatsapp-btn" target="_blank"
+            rel="noopener noreferrer">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm.01 1.67c2.2 0 4.26.86 5.82 2.41a8.17 8.17 0 0 1 2.4 5.83c0 4.54-3.7 8.24-8.24 8.24-1.42 0-2.82-.37-4.06-1.08l-.29-.17-3.12.82.83-3.04-.19-.3a8.197 8.197 0 0 1-1.25-4.46c0-4.54 3.7-8.24 8.24-8.24zm4.52 11.66c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.07-.39-2.03-1.25-.75-.67-1.26-1.5-1.41-1.75-.15-.25-.02-.39.11-.51.11-.11.25-.29.37-.44.12-.14.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.35-.77-1.85-.2-.49-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1 0 1.24.9 2.44 1.03 2.61.13.17 1.77 2.7 4.29 3.79.6.26 1.07.41 1.43.53.6.19 1.15.16 1.58.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.06-.11-.22-.18-.47-.3z" />
+            </svg>
+            <span>Order via WhatsApp</span>
+          </a>
+          <a href="#contact" class="btn btn-outline-gold" style="color: #ffffff; border-color: rgba(255,255,255,0.4);">
+            <span>Request Custom Proof</span>
+          </a>
+        </div>
+
+        <div class="hero-locked-trust">
+          <div class="trust-badge-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+            </svg>
+            <span>Solid Grade 304 Steel</span>
+          </div>
+          <div class="trust-badge-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"></circle>
+              <polyline points="12 6 12 12 16 14"></polyline>
+            </svg>
+            <span>Fast Turnaround</span>
+          </div>
+          <div class="trust-badge-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="2" y1="12" x2="22" y2="12"></line>
+              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
+              </path>
+            </svg>
+            <span>Global Express Shipping</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Right Column: Locked Professional Card Showcase (NO SLIDESHOW) -->
+      <div class="hero-card-stage">
+        <div class="hero-stage-podium">
+          <div class="hero-professional-frame" id="hero-card-frame">
+            <!-- Studio Light Reflection Sweep -->
+            <div class="hero-card-gloss-sweep"></div>
+
+            <!-- Top Badge: Tap-to-Share NFC -->
+            <div class="hero-stage-badge-top">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M5 12.55a11 11 0 0 1 14.08 0"></path>
+                <path d="M1.42 9a16 16 0 0 1 21.16 0"></path>
+                <path d="M8.53 16.11a6 6 0 0 1 6.95 0"></path>
+                <line x1="12" y1="20" x2="12.01" y2="20"></line>
+              </svg>
+              <span>Instant NFC Tap Ready</span>
+            </div>
+
+            <!-- Displayed Professional Studio Camera Photo -->
+            <img src="images/studio-card-brass-gold.jpg" alt="Fine Touch Brushed Brass Gold NFC Metal Card"
+              class="hero-locked-card-img" id="hero-card-display-img">
+
+            <!-- Bottom Badge: Card Details -->
+            <div class="hero-stage-badge-bottom">
+              <div class="hero-stage-card-title" id="hero-card-display-title">Brushed Brass Gold Card</div>
+              <div class="hero-stage-card-subtitle" id="hero-card-display-sub">24K Satin Luster • Precision Laser Spiral
+                Cutouts</div>
+            </div>
+          </div>
+
+          <!-- Interactive Finish Switcher (Pills below card) -->
+          <div class="hero-finish-selector">
+            <div class="hero-selector-label">
+              <span>Select Finish to Preview:</span>
+              <span id="hero-selector-active-name" style="color: var(--accent-orange);">24K Brass Gold</span>
+            </div>
+            <div class="hero-selector-pills-row">
+              <button class="hero-finish-pill-btn active" data-img="images/studio-card-brass-gold.jpg"
+                data-title="Brushed Brass Gold Card" data-sub="24K Satin Luster • Precision Laser Spiral Cutouts"
+                data-name="24K Brass Gold">24K Gold</button>
+              <button class="hero-finish-pill-btn" data-img="images/studio-card-matte-black.jpg"
+                data-title="Matte Black Stainless Steel Card" data-sub="0.8mm Solid Metal • Laser Etched & NFC"
+                data-name="Matte Black">Matte Black</button>
+              <button class="hero-finish-pill-btn" data-img="images/studio-card-brushed-silver.jpg"
+                data-title="Brushed Stainless Steel Card" data-sub="304 Steel • Horizontal Brush Grain & Cutouts"
+                data-name="Brushed Steel">Brushed Steel</button>
+              <button class="hero-finish-pill-btn" data-img="images/studio-card-rose-gold.jpg"
+                data-title="Rose Gold / Copper Card" data-sub="VIP Prestige • Numbered Executive Edition"
+                data-name="Rose Gold">Rose Gold</button>
+              <button class="hero-finish-pill-btn" data-img="images/studio-card-cutout-nfc.jpg"
+                data-title="Custom Cut-Out & NFC Metal Card" data-sub="Die-Cut Stencil Art • Contactless Tap Enabled"
+                data-name="Die-Cut NFC">Cutout & NFC</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =======================================================================
+       3. WELCOME & BRAND STORY SECTION
+       ======================================================================= -->
+  <section class="welcome-story-section section-spacing" id="about">
+    <div class="container">
+      <div class="brand-story-grid">
+
+        <!-- Left Column: Story Copy -->
+        <div class="brand-story-content">
+          <span class="section-eyebrow">Luxury Craftsmanship</span>
+          <h2 class="section-title">WELCOME TO FINE TOUCH METAL CARD</h2>
+
+          <div class="brand-story-quote">
+            "Fine Touch Metal Card provides the finest quality metal business cards and metal membership cards tailored
+            to meet your specific needs. Once you switch to metal cards, you will never look back. Our mission is
+            simple: to create extraordinary metal cards with transparent pricing and fast turnaround times. Customized
+            metal cards add an unmistakable touch of elegance, durability, and sophistication to your brand—setting you
+            apart from the competition."
+          </div>
+
+          <p class="brand-story-mission">
+            Every card we forge begins with high-grade industrial metals—precision milled, hand-polished, and
+            laser-etched to microscopic tolerances. Whether you are leading boardrooms, sealing investment rounds, or
+            welcoming private club members, our cards make every handshake an event.
+          </p>
+
+          <!-- 4 Pillars Grid -->
+          <div class="brand-pillars-grid">
+            <div class="pillar-card">
+              <div class="pillar-icon-box">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                </svg>
+              </div>
+              <h3 class="pillar-title">Uncompromising Durability</h3>
+              <p class="pillar-desc">Won't bend, tear, or fade. Solid marine-grade 304 steel built to last for
+                generations.</p>
+            </div>
+
+            <div class="pillar-card">
+              <div class="pillar-icon-box">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                  </polygon>
+                </svg>
+              </div>
+              <h3 class="pillar-title">Microscopic Precision</h3>
+              <p class="pillar-desc">Laser etched up to 1200 DPI resolution with custom cut-through stencil cutouts.</p>
+            </div>
+
+            <div class="pillar-card">
+              <div class="pillar-icon-box">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 1v22M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                </svg>
+              </div>
+              <h3 class="pillar-title">Transparent Pricing</h3>
+              <p class="pillar-desc">Zero hidden tooling or plating charges. Direct factory pricing with volume
+                discounts.</p>
+            </div>
+
+            <div class="pillar-card">
+              <div class="pillar-icon-box">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polyline points="12 6 12 12 16 14"></polyline>
+                </svg>
+              </div>
+              <h3 class="pillar-title">Fast Turnaround</h3>
+              <p class="pillar-desc">Rapid 7–10 day production followed by guaranteed express courier dispatch
+                worldwide.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column: Visual Showcase (Studio Camera Photo) -->
+        <div class="brand-visual-showcase">
+          <div class="visual-metal-card-stack">
+            <img src="images/studio-card-brass-gold.jpg" alt="Fine Touch Metal Card Real Gold Metal Sample"
+              class="visual-metal-img" style="aspect-ratio: 85/54; object-fit: cover;">
+            <div class="prestige-badge-floating">
+              <div class="prestige-badge-number">0.8mm</div>
+              <div class="prestige-badge-label">Solid Luxury Hand-Feel</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =======================================================================
+       4. PRODUCT SHOWCASE (STRICTLY 5 CARDS ONLY - STUDIO CAMERA PHOTOS)
+       Grid: 3 on top row, 2 centered on bottom row
+       ======================================================================= -->
+  <section class="product-showcase-section section-spacing" id="cards">
+    <div class="container">
+
+      <!-- Section Header -->
+      <div class="section-header-block">
+        <span class="section-eyebrow">The Signature Collection</span>
+        <h2 class="section-title">OUR 5 EXCLUSIVE METAL CARD STYLES</h2>
+        <p class="section-subtitle">
+          Precision-engineered finishes photographed in commercial macro studio clarity. Select any card below to
+          initiate a custom order directly with our WhatsApp design team.
+        </p>
+      </div>
+
+      <!-- Top Row: Exactly 3 Cards -->
+      <div class="cards-showcase-grid">
+
+        <!-- CARD 1: Matte Black Stainless Steel Card -->
+        <article class="card-item" data-product-id="matte-black">
+          <div class="card-media-slot">
+            <span class="card-tag-badge">Executive Favorite</span>
+            <span class="card-finish-badge">Laser Etched &amp; NFC</span>
+            <img src="images/studio-card-matte-black.jpg" alt="Matte Black Stainless Steel Metal NFC Card"
+              class="card-img-placeholder" loading="lazy">
+          </div>
+          <div class="card-info-body">
+            <h3 class="card-title">Matte Black Stainless Steel Card</h3>
+            <div class="card-finish-subtitle">Non-Glare Obsidian &amp; Laser Etching</div>
+            <p class="card-desc-text">
+              Sleek, non-glare black finish with precision laser etching and integrated contactless NFC tap capability.
+            </p>
+            <ul class="card-specs-list">
+              <li>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>304 Grade Stainless Steel (0.5mm / 0.8mm)</span>
+              </li>
+              <li>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>High-contrast crisp silver laser engraving</span>
+              </li>
+              <li>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>Anti-fingerprint satin armor &amp; NFC enabled</span>
+              </li>
+            </ul>
+            <a href="#" class="btn btn-whatsapp card-order-btn" data-card-name="Matte Black Stainless Steel Card"
+              target="_blank" rel="noopener noreferrer">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm.01 1.67c2.2 0 4.26.86 5.82 2.41a8.17 8.17 0 0 1 2.4 5.83c0 4.54-3.7 8.24-8.24 8.24-1.42 0-2.82-.37-4.06-1.08l-.29-.17-3.12.82.83-3.04-.19-.3a8.197 8.197 0 0 1-1.25-4.46c0-4.54 3.7-8.24 8.24-8.24zm4.52 11.66c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.07-.39-2.03-1.25-.75-.67-1.26-1.5-1.41-1.75-.15-.25-.02-.39.11-.51.11-.11.25-.29.37-.44.12-.14.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.35-.77-1.85-.2-.49-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1 0 1.24.9 2.44 1.03 2.61.13.17 1.77 2.7 4.29 3.79.6.26 1.07.41 1.43.53.6.19 1.15.16 1.58.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.06-.11-.22-.18-.47-.3z" />
+              </svg>
+              <span>Order This Card on WhatsApp</span>
+            </a>
+          </div>
+        </article>
+
+        <!-- CARD 2: Brushed Stainless Steel Card -->
+        <article class="card-item" data-product-id="brushed-silver">
+          <div class="card-media-slot">
+            <span class="card-tag-badge">Timeless Classic</span>
+            <span class="card-finish-badge">Brushed Grain</span>
+            <img src="images/studio-card-brushed-silver.jpg" alt="Brushed Stainless Steel Metal Card"
+              class="card-img-placeholder" loading="lazy">
+          </div>
+          <div class="card-info-body">
+            <h3 class="card-title">Brushed Stainless Steel Card</h3>
+            <div class="card-finish-subtitle">Classic Silver Brushed Texture</div>
+            <p class="card-desc-text">
+              Classic silver metallic texture with directional brush lines and architectural cut-out detailing.
+            </p>
+            <ul class="card-specs-list">
+              <li>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>Pure brushed steel grain with mirror chamfer</span>
+              </li>
+              <li>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>Precision geometric laser cut-out perforations</span>
+              </li>
+              <li>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>Rust-proof, waterproof, bend-resistant</span>
+              </li>
+            </ul>
+            <a href="#" class="btn btn-whatsapp card-order-btn" data-card-name="Brushed Stainless Steel Card"
+              target="_blank" rel="noopener noreferrer">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm.01 1.67c2.2 0 4.26.86 5.82 2.41a8.17 8.17 0 0 1 2.4 5.83c0 4.54-3.7 8.24-8.24 8.24-1.42 0-2.82-.37-4.06-1.08l-.29-.17-3.12.82.83-3.04-.19-.3a8.197 8.197 0 0 1-1.25-4.46c0-4.54 3.7-8.24 8.24-8.24zm4.52 11.66c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.07-.39-2.03-1.25-.75-.67-1.26-1.5-1.41-1.75-.15-.25-.02-.39.11-.51.11-.11.25-.29.37-.44.12-.14.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.35-.77-1.85-.2-.49-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1 0 1.24.9 2.44 1.03 2.61.13.17 1.77 2.7 4.29 3.79.6.26 1.07.41 1.43.53.6.19 1.15.16 1.58.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.06-.11-.22-.18-.47-.3z" />
+              </svg>
+              <span>Order This Card on WhatsApp</span>
+            </a>
+          </div>
+        </article>
+
+        <!-- CARD 3: Brushed Brass Gold Card -->
+        <article class="card-item" data-product-id="brushed-brass-gold">
+          <div class="card-media-slot">
+            <span class="card-tag-badge">VIP &amp; Luxury</span>
+            <span class="card-finish-badge">24K Gold</span>
+            <img src="images/studio-card-brass-gold.jpg" alt="Brushed Brass Gold Card" class="card-img-placeholder"
+              loading="lazy">
+          </div>
+          <div class="card-info-body">
+            <h3 class="card-title">Brushed Brass Gold Card</h3>
+            <div class="card-finish-subtitle">24K Satin Gold Luster</div>
+            <p class="card-desc-text">
+              Luxurious gold finish for executive and VIP branding with radiant laser spiral perforations.
+            </p>
+            <ul class="card-specs-list">
+              <li>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>Solid brass / genuine gold plated alloy</span>
+              </li>
+              <li>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>Exquisite warm gold shimmer with spiral cutouts</span>
+              </li>
+              <li>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>Custom serial numbers &amp; member crests</span>
+              </li>
+            </ul>
+            <a href="#" class="btn btn-whatsapp card-order-btn" data-card-name="Brushed Brass Gold Card" target="_blank"
+              rel="noopener noreferrer">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm.01 1.67c2.2 0 4.26.86 5.82 2.41a8.17 8.17 0 0 1 2.4 5.83c0 4.54-3.7 8.24-8.24 8.24-1.42 0-2.82-.37-4.06-1.08l-.29-.17-3.12.82.83-3.04-.19-.3a8.197 8.197 0 0 1-1.25-4.46c0-4.54 3.7-8.24 8.24-8.24zm4.52 11.66c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.07-.39-2.03-1.25-.75-.67-1.26-1.5-1.41-1.75-.15-.25-.02-.39.11-.51.11-.11.25-.29.37-.44.12-.14.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.35-.77-1.85-.2-.49-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1 0 1.24.9 2.44 1.03 2.61.13.17 1.77 2.7 4.29 3.79.6.26 1.07.41 1.43.53.6.19 1.15.16 1.58.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.06-.11-.22-.18-.47-.3z" />
+              </svg>
+              <span>Order This Card on WhatsApp</span>
+            </a>
+          </div>
+        </article>
+
+      </div>
+
+      <!-- Bottom Row: Exactly 2 Centered Cards -->
+      <div class="cards-showcase-bottom-row">
+
+        <!-- CARD 4: Rose Gold / Copper Card -->
+        <article class="card-item" data-product-id="rose-gold-copper">
+          <div class="card-media-slot">
+            <span class="card-tag-badge">Distinguished Tone</span>
+            <span class="card-finish-badge">Rose Gold</span>
+            <img src="images/studio-card-rose-gold.jpg" alt="Rose Gold Copper Metal VIP Card"
+              class="card-img-placeholder" loading="lazy">
+          </div>
+          <div class="card-info-body">
+            <h3 class="card-title">Rose Gold / Copper Card</h3>
+            <div class="card-finish-subtitle">Warm Rose Gold &amp; Copper Luster</div>
+            <p class="card-desc-text">
+              Warm, distinctive metallic tone with clean rounded bevel edges and executive club engraving.
+            </p>
+            <ul class="card-specs-list">
+              <li>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>Warm copper hue with anti-tarnish protective coat</span>
+              </li>
+              <li>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>Subtle rose reflections under ambient lighting</span>
+              </li>
+              <li>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>VIP membership numbering &amp; emblem engraving</span>
+              </li>
+            </ul>
+            <a href="#" class="btn btn-whatsapp card-order-btn" data-card-name="Rose Gold / Copper Card" target="_blank"
+              rel="noopener noreferrer">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm.01 1.67c2.2 0 4.26.86 5.82 2.41a8.17 8.17 0 0 1 2.4 5.83c0 4.54-3.7 8.24-8.24 8.24-1.42 0-2.82-.37-4.06-1.08l-.29-.17-3.12.82.83-3.04-.19-.3a8.197 8.197 0 0 1-1.25-4.46c0-4.54 3.7-8.24 8.24-8.24zm4.52 11.66c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.07-.39-2.03-1.25-.75-.67-1.26-1.5-1.41-1.75-.15-.25-.02-.39.11-.51.11-.11.25-.29.37-.44.12-.14.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.35-.77-1.85-.2-.49-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1 0 1.24.9 2.44 1.03 2.61.13.17 1.77 2.7 4.29 3.79.6.26 1.07.41 1.43.53.6.19 1.15.16 1.58.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.06-.11-.22-.18-.47-.3z" />
+              </svg>
+              <span>Order This Card on WhatsApp</span>
+            </a>
+          </div>
+        </article>
+
+        <!-- CARD 5: Custom Cut-Out & NFC Metal Card -->
+        <article class="card-item" data-product-id="cutout-nfc">
+          <div class="card-media-slot">
+            <span class="card-tag-badge">Next-Gen Tech</span>
+            <span class="card-finish-badge">Die-Cut + NFC</span>
+            <img src="images/studio-card-cutout-nfc.jpg" alt="Custom Cut-Out NFC Stainless Steel Card"
+              class="card-img-placeholder" loading="lazy">
+          </div>
+          <div class="card-info-body">
+            <h3 class="card-title">Custom Cut-Out &amp; NFC Metal Card</h3>
+            <div class="card-finish-subtitle">Die-Cut Stencil &amp; Smart Tap NFC</div>
+            <p class="card-desc-text">
+              Intricate die-cut designs with optional tap-to-share contactless NFC technology.
+            </p>
+            <ul class="card-specs-list">
+              <li>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>Embedded contactless NFC microchip for tap-to-share</span>
+              </li>
+              <li>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>Compatible with iOS &amp; Android without any app needed</span>
+              </li>
+              <li>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>Laser cut-through stencil patterns &amp; custom logo cutouts</span>
+              </li>
+            </ul>
+            <a href="#" class="btn btn-whatsapp card-order-btn" data-card-name="Custom Cut-Out &amp; NFC Metal Card"
+              target="_blank" rel="noopener noreferrer">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm.01 1.67c2.2 0 4.26.86 5.82 2.41a8.17 8.17 0 0 1 2.4 5.83c0 4.54-3.7 8.24-8.24 8.24-1.42 0-2.82-.37-4.06-1.08l-.29-.17-3.12.82.83-3.04-.19-.3a8.197 8.197 0 0 1-1.25-4.46c0-4.54 3.7-8.24 8.24-8.24zm4.52 11.66c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.07-.39-2.03-1.25-.75-.67-1.26-1.5-1.41-1.75-.15-.25-.02-.39.11-.51.11-.11.25-.29.37-.44.12-.14.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.35-.77-1.85-.2-.49-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1 0 1.24.9 2.44 1.03 2.61.13.17 1.77 2.7 4.29 3.79.6.26 1.07.41 1.43.53.6.19 1.15.16 1.58.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.06-.11-.22-.18-.47-.3z" />
+              </svg>
+              <span>Order This Card on WhatsApp</span>
+            </a>
+          </div>
+        </article>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =======================================================================
+       5. PROMO BANNER
+       ======================================================================= -->
+  <section class="promo-accent-banner" id="promo-banner">
+    <div class="container promo-banner-content">
+      <div class="promo-headline-group">
+        <span class="promo-badge">Global Express Courier Fulfillment</span>
+        <h2 class="promo-title">Fast Turnaround &amp; Worldwide Express Shipping</h2>
+        <p class="promo-subtitle">
+          From digital design sign-off to doorstep delivery in as little as 7–10 days. Tracked DHL Express &amp; FedEx
+          Priority to over 140 countries.
+        </p>
+      </div>
+      <div class="promo-cta-action">
+        <a href="#" class="btn btn-promo-whatsapp" id="promo-whatsapp-btn" target="_blank" rel="noopener noreferrer">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm.01 1.67c2.2 0 4.26.86 5.82 2.41a8.17 8.17 0 0 1 2.4 5.83c0 4.54-3.7 8.24-8.24 8.24-1.42 0-2.82-.37-4.06-1.08l-.29-.17-3.12.82.83-3.04-.19-.3a8.197 8.197 0 0 1-1.25-4.46c0-4.54 3.7-8.24 8.24-8.24zm4.52 11.66c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.07-.39-2.03-1.25-.75-.67-1.26-1.5-1.41-1.75-.15-.25-.02-.39.11-.51.11-.11.25-.29.37-.44.12-.14.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.35-.77-1.85-.2-.49-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1 0 1.24.9 2.44 1.03 2.61.13.17 1.77 2.7 4.29 3.79.6.26 1.07.41 1.43.53.6.19 1.15.16 1.58.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.06-.11-.22-.18-.47-.3z" />
+          </svg>
+          <span>Chat With Us on WhatsApp</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- =======================================================================
+       WHY METAL SECTION
+       ======================================================================= -->
+  <section class="why-metal-section section-spacing" id="why-metal">
+    <div class="container">
+      <div class="section-header-block">
+        <span class="section-eyebrow">The Metal Advantage</span>
+        <h2 class="section-title">WHY UPGRADE TO METAL CARDS?</h2>
+        <p class="section-subtitle">
+          Over 88% of paper business cards are discarded within a week. A custom metal card commandingly preserves your
+          contact, your brand prestige, and opens doors.
+        </p>
+      </div>
+
+      <div class="why-features-grid">
+        <div class="why-feature-box">
+          <div class="why-feature-icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z">
+              </path>
+            </svg>
+          </div>
+          <h3 class="why-feature-title">Instant VIP Status</h3>
+          <p class="why-feature-text">
+            The cool touch and satisfying heavy weight immediately signal executive authority, credibility, and high
+            value.
+          </p>
+        </div>
+
+        <div class="why-feature-box">
+          <div class="why-feature-icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+              <polyline points="22 4 12 14.01 9 11.01"></polyline>
+            </svg>
+          </div>
+          <h3 class="why-feature-title">Never Thrown Away</h3>
+          <p class="why-feature-text">
+            Recipients keep metal cards displayed on desks or preserved in executive card wallets as high-value
+            keepsakes.
+          </p>
+        </div>
+
+        <div class="why-feature-box">
+          <div class="why-feature-icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+            </svg>
+          </div>
+          <h3 class="why-feature-title">Infinite Customization</h3>
+          <p class="why-feature-text">
+            Laser etched graphics, cut-through stencils, individual serial numbers, QR codes, and smart NFC tap
+            integration.
+          </p>
+        </div>
+
+        <div class="why-feature-box">
+          <div class="why-feature-icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"></circle>
+              <path d="M16 12l-4-4-4 4M12 16V9"></path>
+            </svg>
+          </div>
+          <h3 class="why-feature-title">Substantial ROI</h3>
+          <p class="why-feature-text">
+            One successful executive impression or VIP deal secured more than justifies the lifetime investment in your
+            card.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =======================================================================
+       6. CONTACT US SECTION
+       ======================================================================= -->
+  <section class="contact-section section-spacing" id="contact">
+    <div class="container">
+
+      <div class="section-header-block">
+        <span class="section-eyebrow">Connect With Our Specialists</span>
+        <h2 class="section-title">DON’T BE SHY, TALK TO US</h2>
+        <p class="section-subtitle">
+          Have questions about finishes, thickness options, custom cutouts, or volume corporate orders? Our design team
+          is ready to assist you right away.
+        </p>
+      </div>
+
+      <div class="contact-2col-grid">
+
+        <!-- Left Column: Direct Contact Details & WhatsApp Button -->
+        <div class="contact-info-panel">
+          <h3 class="contact-info-heading">DIRECT CLIENT CONCIERGE</h3>
+          <p class="contact-info-lead">
+            Reach out via WhatsApp for immediate live consultation, instant digital quotes, or file review with our head
+            design specialists.
+          </p>
+
+          <div class="contact-channel-list">
+
+            <!-- Email -->
+            <div class="contact-channel-item">
+              <div class="contact-channel-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </div>
+              <div>
+                <div class="contact-channel-title">Direct Email</div>
+                <div class="contact-channel-val">
+                  <a href="mailto:fineetching@gmail.com" id="contact-email-link">fineetching@gmail.com</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Phone / WhatsApp -->
+            <div class="contact-channel-item">
+              <div class="contact-channel-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path
+                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                  </path>
+                </svg>
+              </div>
+              <div>
+                <div class="contact-channel-title">Phone &amp; WhatsApp</div>
+                <div class="contact-channel-val">
+                  <span id="contact-phone-val">+91 98198 84421</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Business Hours -->
+            <div class="contact-channel-item">
+              <div class="contact-channel-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polyline points="12 6 12 12 16 14"></polyline>
+                </svg>
+              </div>
+              <div>
+                <div class="contact-channel-title">Business Hours</div>
+                <div class="contact-channel-val">
+                  <span id="contact-hours-val">Mon–Sat 9:00 AM – 6:00 PM</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Large Green "Chat Directly on WhatsApp" Button -->
+          <div class="contact-whatsapp-cta-block">
+            <a href="#" class="btn btn-whatsapp btn-contact-whatsapp" id="contact-direct-whatsapp-btn" target="_blank"
+              rel="noopener noreferrer">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm.01 1.67c2.2 0 4.26.86 5.82 2.41a8.17 8.17 0 0 1 2.4 5.83c0 4.54-3.7 8.24-8.24 8.24-1.42 0-2.82-.37-4.06-1.08l-.29-.17-3.12.82.83-3.04-.19-.3a8.197 8.197 0 0 1-1.25-4.46c0-4.54 3.7-8.24 8.24-8.24zm4.52 11.66c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.07-.39-2.03-1.25-.75-.67-1.26-1.5-1.41-1.75-.15-.25-.02-.39.11-.51.11-.11.25-.29.37-.44.12-.14.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.35-.77-1.85-.2-.49-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1 0 1.24.9 2.44 1.03 2.61.13.17 1.77 2.7 4.29 3.79.6.26 1.07.41 1.43.53.6.19 1.15.16 1.58.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.06-.11-.22-.18-.47-.3z" />
+              </svg>
+              <span>Chat Directly on WhatsApp</span>
+            </a>
+          </div>
+
+        </div>
+
+        <!-- Right Column: Clean Contact Form -->
+        <div class="contact-form-panel">
+          <form id="contact-inquiry-form" novalidate>
+
+            <div class="form-grid-2col">
+              <div class="form-group">
+                <label for="first-name" class="form-label">First Name *</label>
+                <input type="text" id="first-name" name="firstName" class="form-control" placeholder="e.g. Ishraque"
+                  required>
+              </div>
+              <div class="form-group">
+                <label for="last-name" class="form-label">Last Name *</label>
+                <input type="text" id="last-name" name="lastName" class="form-control" placeholder="e.g. Ansari"
+                  required>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="email-address" class="form-label">Email Address *</label>
+              <input type="email" id="email-address" name="email" class="form-control"
+                placeholder="e.g. ishraque@fineetching.com" required>
+            </div>
+
+            <!-- Card Type Dropdown of the 5 cards -->
+            <div class="form-group">
+              <label for="card-type-select" class="form-label">Card Type Selection *</label>
+              <select id="card-type-select" name="cardType" class="form-control" required>
+                <option value="" disabled selected>Select one of our 5 luxury card finishes...</option>
+                <option value="Matte Black Stainless Steel Card">Matte Black Stainless Steel Card</option>
+                <option value="Brushed Stainless Steel Card">Brushed Stainless Steel Card</option>
+                <option value="Brushed Brass Gold Card">Brushed Brass Gold Card</option>
+                <option value="Rose Gold / Copper Card">Rose Gold / Copper Card</option>
+                <option value="Custom Cut-Out & NFC Metal Card">Custom Cut-Out & NFC Metal Card</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="order-message" class="form-label">Your Message or Custom Request *</label>
+              <textarea id="order-message" name="message" class="form-control"
+                placeholder="Tell us about your brand, quantity needed, or upload details..." required></textarea>
+            </div>
+
+            <div class="form-submit-row">
+              <button type="submit" class="btn btn-primary-orange" id="submit-inquiry-btn">
+                <span>Submit Inquiry</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </button>
+              <span class="form-privacy-note">We respect your privacy. No spam.</span>
+            </div>
+
+          </form>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =======================================================================
+       TOAST NOTIFICATION
+       ======================================================================= -->
+  <div class="toast-notification" id="toast-notification" role="alert" aria-live="polite">
+    <div class="toast-icon">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+        <polyline points="22 4 12 14.01 9 11.01"></polyline>
+      </svg>
+    </div>
+    <div class="toast-content">
+      <div class="toast-text-title" id="toast-title">Inquiry Sent Successfully!</div>
+      <div class="toast-text-desc" id="toast-desc">Our design team has received your details and will reply via WhatsApp
+        / Email promptly.</div>
+    </div>
+  </div>
+
+  <!-- =======================================================================
+       7. VIP SIGN UP / SIGN IN LUXURY MODAL POPUP
+       ======================================================================= -->
+  <div class="auth-modal-overlay" id="auth-modal" role="dialog" aria-modal="true" aria-labelledby="auth-modal-title">
+    <div class="auth-modal-card">
+
+      <!-- Modal Header -->
+      <div class="auth-modal-header">
+        <div class="auth-header-brand">
+          <img src="images/fine-touch-logo.jpg" alt="Fine Touch Metal Card Logo" class="auth-modal-logo-img"
+            style="height: 48px; width: 48px; border-radius: 8px; object-fit: cover; border: 1px solid rgba(212,175,55,0.4); flex-shrink: 0;">
+          <div>
+            <div class="auth-title" id="auth-modal-title">FINE TOUCH VIP CONCIERGE</div>
+            <div class="auth-subtitle">Exclusive Member Privileges</div>
+          </div>
+        </div>
+        <button class="auth-close-btn" id="auth-close-btn" aria-label="Close dialog">&times;</button>
+      </div>
+
+      <!-- Tab Navigation Switcher -->
+      <div class="auth-tabs-nav">
+        <button class="auth-tab-btn active" id="tab-signup-btn">VIP Sign Up</button>
+        <button class="auth-tab-btn" id="tab-signin-btn">Member Sign In</button>
+      </div>
+
+      <!-- Modal Body -->
+      <div class="auth-modal-body">
+
+        <!-- PANE 1: SIGN UP FORM -->
+        <div class="auth-form-pane active" id="pane-signup">
+          <form id="auth-signup-form">
+
+            <div class="auth-form-group">
+              <label for="signup-name" class="auth-label">Full Name *</label>
+              <input type="text" id="signup-name" class="auth-input" placeholder="e.g. Ishraque Ansari" required>
+            </div>
+
+            <div class="auth-form-group">
+              <label for="signup-email" class="auth-label">Business / Personal Email *</label>
+              <input type="email" id="signup-email" class="auth-input" placeholder="e.g. ishraque@fineetching.com"
+                required>
+            </div>
+
+            <div class="auth-form-group">
+              <label for="signup-phone" class="auth-label">WhatsApp / Mobile Number *</label>
+              <input type="tel" id="signup-phone" class="auth-input" placeholder="e.g. +91 98198 84421" required>
+            </div>
+
+            <div class="auth-form-group">
+              <label for="signup-card-pref" class="auth-label">Preferred Metal Finish</label>
+              <select id="signup-card-pref" class="auth-select">
+                <option value="Matte Black Stainless Steel">Matte Black Stainless Steel</option>
+                <option value="Brushed Stainless Steel">Brushed Stainless Steel</option>
+                <option value="Brushed Brass Gold" selected>Brushed Brass Gold</option>
+                <option value="Rose Gold / Copper">Rose Gold / Copper</option>
+                <option value="Custom Cut-Out & NFC">Custom Cut-Out &amp; NFC</option>
+              </select>
+            </div>
+
+            <div class="auth-form-group">
+              <label for="signup-password" class="auth-label">Create Password *</label>
+              <input type="password" id="signup-password" class="auth-input" placeholder="Minimum 6 characters"
+                minlength="6" required>
+            </div>
+
+            <button type="submit" class="btn btn-primary-orange auth-submit-btn">
+              <span>Create VIP Account</span>
+            </button>
+
+            <div class="auth-footer-help">
+              Already have an account? <span class="auth-switch-link" id="link-to-signin">Sign In here</span>
+            </div>
+
+          </form>
+        </div>
+
+        <!-- PANE 2: SIGN IN FORM -->
+        <div class="auth-form-pane" id="pane-signin">
+          <form id="auth-signin-form">
+
+            <div class="auth-form-group">
+              <label for="signin-email" class="auth-label">Email Address *</label>
+              <input type="email" id="signin-email" class="auth-input" placeholder="Enter your registered email"
+                required>
+            </div>
+
+            <div class="auth-form-group">
+              <label for="signin-password" class="auth-label">Password *</label>
+              <input type="password" id="signin-password" class="auth-input" placeholder="Enter your password" required>
+            </div>
+
+            <button type="submit" class="btn btn-dark auth-submit-btn">
+              <span>Sign In</span>
+            </button>
+
+            <div class="auth-footer-help">
+              Need a VIP membership? <span class="auth-switch-link" id="link-to-signup">Sign Up now</span>
+            </div>
+
+          </form>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <!-- =======================================================================
+       8. BUILT-IN INTERACTIVE HELPING ASSISTANT (FLOATING CHAT WIDGET)
+       ======================================================================= -->
+  <div class="assistant-widget-container" id="assistant-widget-container">
+
+    <!-- Floating Launcher Button -->
+    <button class="assistant-launch-btn" id="assistant-launch-btn" aria-label="Open Card Assistant Chat">
+      <div class="assistant-launch-icon">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+        </svg>
+      </div>
+      <span class="assistant-launch-text">Need Help? Ask Our Card Assistant</span>
+      <span class="assistant-ping-badge"></span>
+    </button>
+
+    <!-- Popover Chat Window -->
+    <div class="assistant-popover" id="assistant-popover" role="dialog" aria-modal="false"
+      aria-label="Fine Touch Card Assistant">
+
+      <!-- Assistant Header -->
+      <div class="assistant-popover-header">
+        <div class="assistant-header-profile">
+          <div class="assistant-avatar"
+            style="width: 42px; height: 42px; border-radius: 50%; overflow: hidden; border: 1.5px solid var(--accent-gold); flex-shrink: 0; background: #141416;">
+            <img src="images/fine-touch-logo.jpg" alt="Fine Touch Assistant"
+              style="width: 100%; height: 100%; object-fit: cover;">
+          </div>
+          <div>
+            <div class="assistant-header-title">FINE TOUCH ASSISTANT</div>
+            <div class="assistant-header-status">
+              <span class="assistant-ping-badge"></span>
+              <span>Online • Ready to Assist</span>
+            </div>
+          </div>
+        </div>
+        <button class="assistant-close-btn" id="assistant-close-btn" aria-label="Close Assistant">&times;</button>
+      </div>
+
+      <!-- Messages Scroll Area -->
+      <div class="assistant-messages-body" id="assistant-messages-body">
+        <div class="chat-bubble bot">
+          Hello! Welcome to <strong>Fine Touch Metal Card</strong>. I am your concierge card specialist. How can I
+          assist you with your custom metal cards today?
+        </div>
+      </div>
+
+      <!-- Quick Reply Action Chips -->
+      <div class="assistant-quick-replies" id="assistant-quick-replies">
+        <div class="quick-reply-label">Popular Inquiries:</div>
+        <div class="quick-reply-chips-wrap">
+          <button class="quick-chip-btn" data-topic="materials">Card Materials &amp; Finishes</button>
+          <button class="quick-chip-btn" data-topic="moq">Minimum Order Quantities</button>
+          <button class="quick-chip-btn" data-topic="artwork">Design &amp; Artwork Formats</button>
+          <button class="quick-chip-btn" data-topic="shipping">Production &amp; Shipping Times</button>
+          <button class="quick-chip-btn quick-chip-whatsapp" id="assistant-transfer-wa-chip">Transfer Order to
+            WhatsApp</button>
+        </div>
+      </div>
+
+      <!-- Chat Input Field -->
+      <div class="assistant-input-footer">
+        <input type="text" class="assistant-input-field" id="assistant-user-input"
+          placeholder="Type your question here..." aria-label="Ask assistant">
+        <button class="assistant-send-btn" id="assistant-send-btn" aria-label="Send Message">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="22" y1="2" x2="11" y2="13"></line>
+            <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+          </svg>
+        </button>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- =======================================================================
+       9. FOOTER
+       ======================================================================= -->
+  <footer class="site-footer">
+    <div class="container">
+
+      <div class="footer-top-grid">
+
+        <!-- Column 1: Brand Summary -->
+        <div class="footer-brand-column">
+          <div class="footer-logo-wrap" style="margin-bottom: 20px;">
+            <img src="images/fine-touch-logo.jpg" alt="Fine Touch Metal Card Official Logo"
+              style="height: 72px; width: auto; border-radius: 8px; border: 1px solid rgba(212, 175, 55, 0.4); box-shadow: 0 4px 18px rgba(0, 0, 0, 0.45);">
+          </div>
+          <p class="footer-brand-desc">
+            Fine Touch Metal Card provides the finest quality metal business cards and VIP membership cards tailored to
+            meet your specific needs. Experience the luxury of solid stainless steel, brass, copper, and smart NFC metal
+            craftsmanship.
+          </p>
+          <div class="footer-social-row">
+            <a href="#" class="social-icon-circle" aria-label="Instagram">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </a>
+            <a href="#" class="social-icon-circle" aria-label="LinkedIn">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                <rect x="2" y="9" width="4" height="12"></rect>
+                <circle cx="4" cy="4" r="2"></circle>
+              </svg>
+            </a>
+            <a href="#" class="social-icon-circle" aria-label="Facebook">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+              </svg>
+            </a>
+            <a href="#" class="social-icon-circle" aria-label="Twitter">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path
+                  d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z">
+                </path>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Column 2: Quick Links -->
+        <div class="footer-links-column">
+          <h4 class="footer-heading">Navigation</h4>
+          <ul class="footer-links-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#cards">Our 5 Card Styles</a></li>
+            <li><a href="#about">Welcome &amp; Brand Story</a></li>
+            <li><a href="#why-metal">Why Choose Metal</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 3: The 5 Finishes -->
+        <div class="footer-links-column">
+          <h4 class="footer-heading">The 5 Finishes</h4>
+          <ul class="footer-links-list">
+            <li><a href="#cards">Matte Black Stainless Steel</a></li>
+            <li><a href="#cards">Brushed Stainless Steel</a></li>
+            <li><a href="#cards">Brushed Brass Gold</a></li>
+            <li><a href="#cards">Rose Gold / Copper</a></li>
+            <li><a href="#cards">Custom Cut-Out &amp; Smart NFC</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 4: WhatsApp Direct & Hours -->
+        <div class="footer-links-column">
+          <h4 class="footer-heading">Direct Concierge</h4>
+          <ul class="footer-links-list">
+            <li><span>Email: fineetching@gmail.com</span></li>
+            <li><span>Phone / WA: <span id="footer-phone-val">+91 98198 84421</span></span></li>
+            <li><span>Hours: Mon–Sat 9:00 AM – 6:00 PM</span></li>
+            <li style="margin-top: 10px;">
+              <a href="#" class="btn btn-whatsapp btn-sm footer-whatsapp-cta" target="_blank" rel="noopener noreferrer">
+                <span>Chat on WhatsApp</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Bottom Bar: Copyright -->
+      <div class="footer-bottom-bar">
+        <div class="footer-copyright">
+          © Fine Touch Metal Card. All Rights Reserved.
+        </div>
+        <div class="footer-bottom-links">
+          <a href="#home">Terms of Service</a>
+          <a href="#home">Privacy Policy</a>
+          <a href="#home">Shipping Policy</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/config.js"></script>
+  <script src="js/assistant.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
